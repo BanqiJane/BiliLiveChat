@@ -8,8 +8,8 @@
 # 项目效果展示
 
 **使用效果**<br/><br/>
-![使用效果](https://images.acproject.xyz/chat_view.gif "使用效果")
-
+![使用效果](https://images.acproject.xyz/chat_view.gif "使用效果") <br/>
+**[在线使用](https://banqijane.github.io/BiliLiveChat/danmu.html "danmu.html ")**
 
 ## **我的另一个弹幕姬项目**
 **[Bilibili_Danmuji](https://github.com/BanqiJane/Bilibili_Danmuji "Bilibili_Danmuji")**
