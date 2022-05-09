@@ -97,7 +97,7 @@ const method = {
     }
   },
   stringToTTS: function (str) {
-    var url = "http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=4&text=" + str;
+    var url = "https://fanyi.baidu.com/gettts?lan=zh&spd=5&source=web&text=" + str;
     var n = new Audio(url)
     n.src = url;
     n.play();
@@ -115,7 +115,7 @@ const method = {
     setInterval(() => {
       if (method.data.getAudio().paused) {
         if (method.tts.get().length) {
-          $("#au").attr('src', "http://tts.baidu.com/text2audio?lan=zh&ie=UTF-8&spd=4&text=" + method.tts.get()[0]);
+          $("#au").attr('src', "https://fanyi.baidu.com/gettts?lan=zh&spd=5&source=web&text=" + method.tts.get()[0]);
           method.data.getAudio().play()
           //	  var player=$("#au")[0];
           //	 if (player.paused){ /*如果已经暂停*/
